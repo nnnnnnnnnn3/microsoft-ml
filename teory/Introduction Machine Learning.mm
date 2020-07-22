@@ -372,8 +372,7 @@
       its a correction of words
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595114649505" ID="ID_885257381" MODIFIED="1595114722472" TEXT="lematization">
 <richcontent TYPE="NOTE"><html>
@@ -385,8 +384,7 @@
       change a word instead of other
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595115432367" ID="ID_1433157237" MODIFIED="1595115458953" TEXT="vectorization">
 <richcontent TYPE="NOTE"><html>
@@ -559,10 +557,212 @@
       Each chunk of text gets a vector (represented here as a row in the table) that is the length of the total number of words that we are interested in (in this case, six words). If the normalized text does not have the word in question, then the value in that position is&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">0</font></code>, whereas if it&#160;<em style="font-style: italic; margin-bottom: 0px"><i>does</i></em>&#160;have the word in question, it gets assigned to the importance of the word.
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1595119572783" ID="ID_1452406646" MODIFIED="1595386101569" POSITION="left" TEXT="two perspectives on ML">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      a computer scientist might say something like:
+    </p>
+    <blockquote style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; font-size: 1.5rem; font-style: italic; line-height: 2.5rem; font-weight: 300; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px; border-left-color: rgb(219, 226, 232); border-left-style: solid; border-left-width: 5px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        We are using&#160;<strong style="font-weight: 700"><b>input features</b></strong>&#160;to create a&#160;<strong style="font-weight: 700"><b>program</b></strong>&#160;that can generate the desired&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>output</b></strong>.
+      </p>
+    </blockquote>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In contrast, someone with a background in statistics might be inclined to say something more like:
+    </p>
+    <blockquote style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; font-size: 1.5rem; font-style: italic; line-height: 2.5rem; font-weight: 300; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px; border-left-color: rgb(219, 226, 232); border-left-style: solid; border-left-width: 5px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        We are trying to find a&#160;<strong style="font-weight: 700"><b>mathematical function</b></strong>&#160;that, given the values of the&#160;<strong style="font-weight: 700"><b>independent variables</b></strong>&#160;can predict the values of the&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>dependent variables</b></strong>.
+      </p>
+    </blockquote>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      While the terminology are different, the challenges are the same, that is how to get the best possible outcome.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595386131392" ID="ID_737998103" MODIFIED="1595386752391" POSITION="right" TEXT="computer science perpective">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      link:
+    </p>
+    <p>
+      <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://www.youtube.com/watch?v=4uHZkcRJ_J8">https://www.youtube.com/watch?v=4uHZkcRJ_J8</a>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fila = entidad = instancia=&#160;&#160;vector de entrada= observacion
+    </p>
+    <p>
+      columna =atributo=caracteristica
+    </p>
+    <h2 http-equiv="content-type" content="text/html; charset=utf-8" id="input-and-output" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Entrada y salida
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Recuerde que en un caso t&#237;pico de aprendizaje autom&#225;tico, tiene alg&#250;n tipo de&#160;<em style="font-style: italic"><i>entrada</i></em>&#160;que alimenta al algoritmo de aprendizaje autom&#225;tico, y el algoritmo produce algo de&#160;<em style="font-style: italic"><i>salida.&#160;</i></em>En la mayor&#237;a de los casos, se utilizan m&#250;ltiples datos como entrada.&#160;Por ejemplo, podemos pensar en una sola fila de la tabla anterior como un&#160;<em style="font-style: italic"><i>vector</i></em>&#160;de puntos de datos:
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; color: rgb(82, 92, 101); line-height: 1.75rem; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: block; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><code class="lang-text" style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: inherit; white-space: pre"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(908721, Guess, Blue, 789, 45.33)</font></code></pre>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Nuevamente, en la terminolog&#237;a de la inform&#225;tica, cada elemento del vector de entrada (como&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Guess</font></code>o&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Blue</font></code>) se conoce como un&#160;<em style="font-style: italic"><i>atributo</i></em>&#160;o&#160;<em style="font-style: italic"><i>caracter&#237;stica</i></em>&#160;.&#160;Por lo tanto, podr&#237;amos&#160;<em style="font-style: italic"><i>incorporar</i></em>&#160;estas&#160;<em style="font-style: italic"><i>caracter&#237;sticas de entrada</i></em>&#160;en nuestro programa de aprendizaje autom&#225;tico y el programa generar&#237;a alg&#250;n tipo de salida deseada (como una predicci&#243;n sobre qu&#233; tan bien se vender&#225; el producto).&#160;Esto se puede representar como:
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; color: rgb(82, 92, 101); line-height: 1.75rem; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: block; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><code class="lang-text" style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: inherit; white-space: pre"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Output = Program(Input Features)</font></code></pre>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Un paso importante en la preparaci&#243;n de sus datos para el aprendizaje autom&#225;tico es&#160;<em style="font-style: italic"><i>extraer</i></em>&#160;las caracter&#237;sticas relevantes de los datos sin procesar.&#160;(El tema de la&#160;<em style="font-style: italic"><i>extracci&#243;n</i></em>&#160;de&#160;<em style="font-style: italic"><i>caracter&#237;sticas</i></em>&#160;es importante en el que profundizaremos en una lecci&#243;n posterior).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595386778600" ID="ID_1401753393" MODIFIED="1595387398164" POSITION="left" TEXT="statistical perspective">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In the example of clothing products we looked at earlier in this lesson:
+    </p>
+    <div class="index-module--table-responsive--1zG6k" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <table class="index-module--table--8j68C index-module--table-striped--3HHC-" style="background-color: rgb(255, 255, 255); margin-bottom: 20px">
+        <tr>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            SKU
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            Make
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            Color
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            Quantity
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            Price
+          </th>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            908721
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Guess
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Blue
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            789
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            45.33
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            456552
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Tillys
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Red
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            244
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            22.91
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            789921
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            A&amp;F
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Green
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            387
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            25.92
+          </td>
+        </tr>
+        <tr style="border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 1px">
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            872266
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Guess
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Blue
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            154
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            17.56
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      We might use data in each row (e.g.&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(908721, Guess, Blue, 789, 45.33)</font></code>) to predict the sale of the corresponding item. Thus, the sale of each item is&#160;<em style="font-style: italic; margin-bottom: 0px"><i>dependent</i></em>&#160;on the data in each row. We can call the data in each row the independent variables and call the sale the dependent variable
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1595387401315" ID="ID_1625949715" MODIFIED="1595387629952" TEXT="input and output">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h2 http-equiv="content-type" content="text/html; charset=utf-8" id="input-and-output" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Input and output
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      From a statistical perspective, the machine learning algorithm is trying to learn a hypothetical function&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(f)</font></code>&#160;such that:
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; color: rgb(82, 92, 101); line-height: 1.75rem; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: block; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: inherit; white-space: pre"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Output Variable = f(</font><font face="monospace, monospace" size="1em" color="rgb(51, 51, 51)">Input</font><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)"> Variables)</font></code></pre>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Typically, the&#160;<em style="font-style: italic"><i>independent variables</i></em>&#160;are the input, and the&#160;<em style="font-style: italic; margin-bottom: 0px"><i>dependent variables</i></em>&#160;are the output. Thus, the above formula can also be expressed as:
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; color: rgb(82, 92, 101); line-height: 1.75rem; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: block; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: inherit; white-space: pre"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Dependent Variable = f(</font><font face="monospace, monospace" size="1em" color="rgb(51, 51, 51)">Independent</font><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)"> Variables)</font></code></pre>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In other words, we are feeding the independent variables into the function, and the function is giving us the resulting values of the dependent variables. With the housing example, we might want to have a function that can take the independent variables of&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">size</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">location</font></code>&#160;as input and use these to predict the likely selling&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">price</font></code>&#160;of the house as output.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Yet another way to represent this concept is to use shorthand notation. Often, the input variables are denoted as&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">X</font></code>&#160;and the output variable is denoted as&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Y</font></code>:
+    </p>
+    <pre style="font-family: monospace, monospace; font-size: 16px; margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; color: rgb(82, 92, 101); line-height: 1.75rem; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: block; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px"><code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: inherit; white-space: pre"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">Y = f(</font><font face="monospace, monospace" size="1em" color="rgb(51, 51, 51)">X</font><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">)</font></code></pre>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In the case of multiple input variables, X would be an&#160;<strong style="font-weight: 700"><b>input vector</b></strong>, meaning that it would be composed of multiple individual inputs (e.g.&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(908721, Guess, Blue, 789, 45.33)</font></code>). When this is the case, you'll see the individual inputs denoted with a subscript, as in X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline">1</sub></font>, X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline">2</sub></font>, X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline; margin-bottom: 0px">3</sub></font>, and so on.
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1595119572783" ID="ID_1452406646" MODIFIED="1595119584104" POSITION="left" TEXT="two perspectives on ML"/>
 </node>
 </map>
