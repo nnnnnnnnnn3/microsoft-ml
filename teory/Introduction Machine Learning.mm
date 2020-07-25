@@ -586,8 +586,7 @@
       While the terminology are different, the challenges are the same, that is how to get the best possible outcome.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595386131392" ID="ID_737998103" MODIFIED="1595386752391" POSITION="right" TEXT="computer science perpective">
 <richcontent TYPE="NOTE"><html>
@@ -625,8 +624,7 @@
       Un paso importante en la preparaci&#243;n de sus datos para el aprendizaje autom&#225;tico es&#160;<em style="font-style: italic"><i>extraer</i></em>&#160;las caracter&#237;sticas relevantes de los datos sin procesar.&#160;(El tema de la&#160;<em style="font-style: italic"><i>extracci&#243;n</i></em>&#160;de&#160;<em style="font-style: italic"><i>caracter&#237;sticas</i></em>&#160;es importante en el que profundizaremos en una lecci&#243;n posterior).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595386778600" ID="ID_1401753393" MODIFIED="1595387398164" POSITION="left" TEXT="statistical perspective">
 <richcontent TYPE="NOTE"><html>
@@ -730,8 +728,7 @@
       We might use data in each row (e.g.&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(908721, Guess, Blue, 789, 45.33)</font></code>) to predict the sale of the corresponding item. Thus, the sale of each item is&#160;<em style="font-style: italic; margin-bottom: 0px"><i>dependent</i></em>&#160;on the data in each row. We can call the data in each row the independent variables and call the sale the dependent variable
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1595387401315" ID="ID_1625949715" MODIFIED="1595387629952" TEXT="input and output">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -760,8 +757,7 @@
       In the case of multiple input variables, X would be an&#160;<strong style="font-weight: 700"><b>input vector</b></strong>, meaning that it would be composed of multiple individual inputs (e.g.&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">(908721, Guess, Blue, 789, 45.33)</font></code>). When this is the case, you'll see the individual inputs denoted with a subscript, as in X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline">1</sub></font>, X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline">2</sub></font>, X<font size="12px"><sub style="font-size: 12px; line-height: 0; vertical-align: baseline; margin-bottom: 0px">3</sub></font>, and so on.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1595389127491" ID="ID_1830131319" MODIFIED="1595389405534" POSITION="right" TEXT="tools for machine learning">
@@ -885,8 +881,595 @@
       </div>
     </div>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1595700922315" ID="ID_536368852" MODIFIED="1595700970743" POSITION="left" TEXT="cloud services">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="index-module--table-responsive--1zG6k" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <table class="index-module--table--8j68C index-module--table-striped--3HHC-" style="background-color: rgb(255, 255, 255); margin-bottom: 20px">
+        <tr>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>Feature</b></strong>
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>Description</b></strong>
+          </th>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Datasets
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Define, version, and monitor datasets used in machine learning runs.
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Experiments / Runs
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Organize machine learning workloads and keep track of each task executed through the service.
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Pipelines
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Structured flows of tasks to model complex machine learning flows.
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Models
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Model registry with support for versioning and deployment to production.
+          </td>
+        </tr>
+        <tr style="border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 1px">
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Endpoints
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Expose real-time endpoints for scoring as well as pipelines for advanced automation.
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Machine learning cloud services also need to provide support for&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>managing</b></strong>&#160;the resources required for running machine learning tasks:
+    </p>
+    <div class="index-module--table-responsive--1zG6k" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <table class="index-module--table--8j68C index-module--table-striped--3HHC-" style="background-color: rgb(255, 255, 255); margin-bottom: 20px">
+        <tr>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>Feature</b></strong>
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>Description</b></strong>
+          </th>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Compute
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Manage compute resources used by machine learning tasks.
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Environments
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            Templates for standardized environments used to create compute resources.
+          </td>
+        </tr>
+        <tr style="border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 1px">
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Datastores
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            Data sources connected to the service environment (e.g. blob stores, file shares, Data Lake stores, databases).
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
 </richcontent>
+<node CREATED="1595700973508" ID="ID_1721299724" MODIFIED="1595701343835" TEXT="A Brief Intro to Azure Machine Learning">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table http-equiv="content-type" content="text/html; charset=utf-8" class="index-module--table--8j68C index-module--table-striped--3HHC-" style="background-color: rgb(255, 255, 255); margin-bottom: 20px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <tr>
+        <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+          <strong style="font-weight: 700"><b>Feature</b></strong>
+        </th>
+        <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+          <strong style="font-weight: 700"><b>Description</b></strong>
+        </th>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          Automated ML
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          Automate intensive tasks that rapidly iterate over many combinations of algorithms, hyperparameters to find the best model based on the chosen metric.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          Designer
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          A drag-and-drop tool that lets you create ML models without a single line of code.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          Datasets
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          A place you can create datasets.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          Experiments
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          A place that helps you organize your runs.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          Models
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          A place to save all the models created in Azure ML or trained outside of Azure ML.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          Endpoints
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          A place stores real-time endpoints for scoring and pipeline endpoints for advanced automation.
+        </td>
+      </tr>
+      <tr>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          Compute
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+          A designated compute resource where you run the training script or host the service deployment.
+        </td>
+      </tr>
+      <tr style="border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 1px">
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          Datastores
+        </td>
+        <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+          An attached storage account in which you can store datasets.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1595701616361" ID="ID_1913572593" MODIFIED="1595702065615" POSITION="right" TEXT="Models vs. Algorithms">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: italic; font-weight: 300; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700"><b>Models</b></strong>&#160;are the&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>specific representations</b></strong>&#160;learned from data
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: italic; font-weight: 300; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700"><b>Algorithms</b></strong>&#160;are the processes of&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>learning</b></strong>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <h2 http-equiv="content-type" content="text/html; charset=utf-8" id="more-about-machine-learning-algorithms" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      More About Machine Learning Algorithms
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      We can think of an algorithm as a mathematical tool that can usually be represented by an equation as well as implemented in code. For example,&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = Wx + b</font></code>&#160;is an algorithm that can be used to calculate y from x if the values for&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b</font></code>&#160;are known. But how do we get&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b</font></code>?
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      This is the&#160;<em style="font-style: italic"><i>learning</i></em>&#160;part of machine learning; That is,&#160;<em style="font-style: italic; margin-bottom: 0px"><i>we can learn these values from training data</i></em>. For example, suppose the following data are collected:
+    </p>
+    <div class="index-module--table-responsive--1zG6k" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <table class="index-module--table--8j68C index-module--table-striped--3HHC-" style="background-color: rgb(255, 255, 255); margin-bottom: 20px">
+        <tr>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>x</b></strong>
+          </th>
+          <th style="text-align: left; line-height: 1.42857; vertical-align: bottom; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 2px">
+            <strong style="font-weight: 700"><b>y</b></strong>
+          </th>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            1
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            1
+          </td>
+        </tr>
+        <tr>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            2
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(255, 255, 255)">
+            2
+          </td>
+        </tr>
+        <tr style="border-bottom-color: rgb(221, 221, 221); border-bottom-style: solid; border-bottom-width: 1px">
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            3
+          </td>
+          <td style="line-height: 1.42857; vertical-align: top; border-top-color: rgb(221, 221, 221); border-top-style: solid; border-top-width: 1px; padding-top: 8px; padding-bottom: 8px; padding-right: 16px; padding-left: 16px; background-color: rgb(249, 249, 249)">
+            3
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      We can plug the data into the algorithm and calculate&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W = 1</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b = 0</font></code>. We would say that that the&#160;<em style="font-style: italic"><i>algorithm was run on the data and learned the values ofr&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b</font></code></i></em>. The output of the learning process is&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W = 1</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b = 0</font></code>.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <h2 http-equiv="content-type" content="text/html; charset=utf-8" id="machine-learning-models" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Machine Learning Models
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Machine learning models are&#160;<em style="font-style: italic"><i>outputs</i></em>&#160;or&#160;<em style="font-style: italic"><i>specific representations</i></em>&#160;of algorithms that run on data. A model represents&#160;<em style="font-style: italic; margin-bottom: 0px"><i>what is learned</i></em>&#160;by a machine learning algorithm on the data.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In the previous example,&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = 1*x + 0</font></code>&#160;is the model we obtained from running the algorithm&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = Wx + b</font></code>&#160;on the training data. We can also say that&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = 1*x + 0</font></code>&#160;is the model that can be used to predict&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y</font></code>&#160;from&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">x</font></code>.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      A machine learning model can also be written in&#160;<em style="font-style: italic"><i>a set of weights or coefficients</i></em>&#160;instead of a full equation. Looking at the previous example, since we know the algorithm, it is redundant to keep the full equation&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = 1*x + 0</font></code>. All we need are the weights (or coefficients)&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W = 1</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b = 0</font></code>. Thus, we can also think of a model as a set of weights (or coefficients) that have been learned.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595704437061" ID="ID_463145250" MODIFIED="1595704464649" POSITION="left" TEXT="linear regression">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="linear-regression-in-machine-learning" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Linear Regression in Machine Learning
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                The equation we used above was:
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                y = mx + b</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">y</font></i><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">=</font><i><font size="1.21em" face="KaTeX_Math">mx</font></i><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">b</font></i>
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                In algebraic terms, we may refer to&#160;<font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px"><semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px"><annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">m</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">m</font></i>&#160;as the&#160;<strong style="font-weight: 700"><b>coefficient</b></strong>&#160;of x or simply the&#160;<strong style="font-weight: 700"><b>slope</b></strong>&#160;of the line, and we may call&#160;<font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px"><semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px"><annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">b</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">b</font></i>&#160;the&#160;<strong style="font-weight: 700"><b>y-intercept</b></strong>. In machine learning, you will typically see the y-intercept referred to as the&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>bias</b></strong>. In machine learning, you will also often see the equation represented using different variables, as in:
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                y = B_0 + B_1*x</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">y</font></i><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">=</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">0</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">1</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">x</font></i>
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                The letters are different and the order has been changed, but it is exactly the same equation. Thus, we can see that what we know from algebra as the basic equation for a line is also, in machine learning, the equation used for&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>simple linear regression</b></strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="multiple-linear-regression" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Multiple Linear Regression
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                In more complex cases where there is&#160;<em style="font-style: italic; margin-bottom: 0px"><i>more than one</i></em>&#160;input variable, we might see something like this:
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                <annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                y = B_0 + B_1*x_1 + B_2*x_2 + B_3*x_3 ... + B_n *x_n</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">y</font></i><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">=</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">0</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">1</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">x</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">1</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">2</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">x</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">2</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">3</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">x</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">3</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">...+</font><i><font size="1.21em" face="KaTeX_Math">B</font><font size="0.7em" face="KaTeX_Math">n</font></i><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">x</font><font size="0.7em" face="KaTeX_Math">n</font></i><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font>
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                In this case, we are using multiple input variables to predict the output. When we have&#160;<em style="font-style: italic"><i>multiple</i></em>&#160;input variables like this, we call it&#160;<strong style="font-weight: 700"><b>multiple linear regression</b></strong>. The visualization of multiple linear regression is no longer a simple line, but instead a&#160;<em style="font-style: italic; margin-bottom: 0px"><i>plane</i></em>&#160;in multiple dimensions:
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div role="button" tabindex="0" aria-label="Show Image Fullscreen" class="image-atom--image-atom--1XDdu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block">
+              <div class="image-atom-content--CDPca" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: center">
+                <div class="image-and-annotations-container--1U01s" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
+                  <img class="image--26lOQ" src="https://video.udacity-data.com/topher/2020/May/5eb4a3c3_screen-shot-2020-05-07-at-5.11.11-pm/screen-shot-2020-05-07-at-5.11.11-pm.png" alt="Graph of multiple linear regression." width="350px" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; display: block" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                But don't let any of this intimidate you: The core idea is still that we are modeling a relationship (using a line or plane) in order to help us predict the value of some variable that we are interested in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="training-a-linear-regression-model" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Training a Linear Regression Model
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                To &quot;train a linear regression model&quot; simply means to learn the&#160;<em style="font-style: italic"><i>coefficients</i></em>&#160;and&#160;<em style="font-style: italic"><i>bias</i></em>&#160;that&#160;<em style="font-style: italic; margin-bottom: 0px"><i>best fit the data</i></em>. This is the purpose of the linear regression algorithm. Here we will give you a high-level introduction so that you understand conceptually how it works, but we will not go into the mathematical details.
+              </p>
+              <h3 id="the-cost-function" style="margin-top: 28px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 18px; color: rgb(46, 61, 73)">
+                The Cost Function
+              </h3>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Notice from our example of test scores earlier that the line we came up with did not&#160;<em style="font-style: italic"><i>perfectly</i></em>&#160;fit the data. In fact,&#160;<em style="font-style: italic"><i>most</i></em>&#160;of the data points were not on the line! When we predict that a student who studies for 10 hours will get a score of 153, we do not expect their score to be exactly 153. Put another way, when we make a prediction using the line, we expect the prediction to have some&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>error</b></strong>.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                The process of finding the best model is essentially a process of finding the coefficients and bias that&#160;<em style="font-style: italic"><i>minimize</i></em>&#160;this error. To calculate this error, we use a&#160;<strong style="font-weight: 700"><b>cost function</b></strong>. There are many cost functions you can choose from to train a model and the resulting error will be different depending one which cost function you choose. The most commonly used cost function for linear regression is the&#160;<a target="_blank" href="https://en.wikipedia.org/wiki/Root-mean-square_deviation" style="color: rgb(2, 179, 228); text-decoration: none; margin-bottom: 0px"><font color="rgb(2, 179, 228)"><strong style="font-weight: 700; margin-bottom: 0px"><b>root mean squared error (RMSE)</b></strong></font></a>
+              </p>
+              <h3 id="preparing-the-data" style="margin-top: 28px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 18px; color: rgb(46, 61, 73)">
+                Preparing the Data
+              </h3>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                There are several&#160;<a target="_blank" href="https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-regression/simple-linear-regression-assumptions.html" style="color: rgb(2, 179, 228); text-decoration: none; margin-bottom: 0px"><font color="rgb(2, 179, 228)"><strong style="font-weight: 700; margin-bottom: 0px"><b>assumptions</b></strong></font></a>&#160;or conditions you need to keep in mind when you use the linear regression algorithm. If the raw data does not meet these assumptions, then it needs to be prepared and transformed prior to use.
+              </p>
+              <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc">
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Linear assumption:</b></strong>&#160;As we've said earlier, linear regression describes variables using a&#160;<em style="font-style: italic"><i>line</i></em>. So the relationship between the input variables and the output variable needs to be a linear relationship. If the raw data does not follow a linear relationship, you may be able to&#160;<a target="_blank" href="https://en.wikipedia.org/wiki/Data_transformation_(statistics" style="color: rgb(2, 179, 228); text-decoration: none"><font color="rgb(2, 179, 228)">transform</font></a>) your data prior to using it with the linear regression algorithm. For example, if your data has an exponential relationship, you can use&#160;<em style="font-style: italic"><i>log transformation</i></em>.
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Remove collinearity</b></strong>: When two variables are&#160;<strong style="font-weight: 700"><b>collinear</b></strong>, this means they can be modeled by the same line or are at least highly&#160;<em style="font-style: italic"><i>correlated</i></em>; in other words, one input variable can be accurately predicted by the other. For example, suppose we want to predict education level using the input variables&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">number of years studying at school</font></code>,&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">if an individual is male</font></code>, and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">if an individual is female</font></code>. In this case, we will see collinearity&#8212;the input variable&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">if an individual is female</font></code>&#160;can be perfectly predicted by&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">if an individual is male</font></code>, thus, we can say they are highly correlated. Having highly correlated input variables will make the model less consistent, so it's important to perform a&#160;<em style="font-style: italic"><i>correlation check</i></em>&#160;among input variables and remove highly correlated input variables.
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Gaussian (normal) distribution:</b></strong>&#160;Linear regression assumes that the distance between output variables and real data (called&#160;<em style="font-style: italic"><i>residual</i></em>) is&#160;<em style="font-style: italic"><i>normally distributed</i></em>. If this is not the case in the raw data, you will need to first transform the data so that the residual has a normal distribution.
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Rescale data:</b></strong>&#160;Linear regression is very sensitive to the distance among data points, so it's always a good idea to&#160;<em style="font-style: italic"><i>normalize</i></em>&#160;or&#160;<em style="font-style: italic"><i>standardize</i></em>&#160;the data.
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Remove noise</b></strong>: Linear regression is very sensitive to noise and&#160;<em style="font-style: italic"><i>outliers</i></em>&#160;in the data. Outliers will significantly change the line learned, as shown in the picture below. Thus, cleaning the data is a critical step prior to applying linear regression.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div role="button" tabindex="0" aria-label="Show Image Fullscreen" class="image-atom--image-atom--1XDdu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block">
+              <div class="image-atom-content--CDPca" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: center">
+                <div class="image-and-annotations-container--1U01s" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
+                  <img class="image--26lOQ" src="https://video.udacity-data.com/topher/2020/May/5eb4b45d_screen-shot-2020-05-07-at-6.21.26-pm/screen-shot-2020-05-07-at-6.21.26-pm.png" alt="Graph showing the sensitivity of linear regression to outliers." width="700px" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; display: block" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h3 id="calculating-the-coefficients" style="margin-top: 28px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 18px; color: rgb(46, 61, 73)">
+                Calculating the Coefficients
+              </h3>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                We've discussed here the overall concept of training a linear regression model: We take the&#160;<em style="font-style: italic"><i>general</i></em>&#160;equation for a line and use some data to learn the coefficients for a&#160;<em style="font-style: italic"><i>specific line</i></em>&#160;that will best fit the data. Just so that you have an idea of what this looks like in concrete terms, let's look at the formulas used to calculate the coefficients. We're showing these in order to give you a general idea of what the calculations actually involve on a concrete level. For this course, you do&#160;<em style="font-style: italic; margin-bottom: 0px"><i>not</i></em>&#160;need to worry about how the formulas are derived and how to use them to calculate the coefficients.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                The formula for getting the slope of the line looks something like this:
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div role="button" tabindex="0" aria-label="Show Image Fullscreen" class="image-atom--image-atom--1XDdu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block">
+              <div class="image-atom-content--CDPca" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: center">
+                <div class="image-and-annotations-container--1U01s" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
+                  <img class="image--26lOQ" src="https://video.udacity-data.com/topher/2020/May/5ebea0c7_slope/slope.png" alt="Formula for calculating slope." width="320px" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; display: block" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                To get the intercept, we calculate:
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div role="button" tabindex="0" aria-label="Show Image Fullscreen" class="image-atom--image-atom--1XDdu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block">
+              <div class="image-atom-content--CDPca" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: center">
+                <div class="image-and-annotations-container--1U01s" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
+                  <img class="image--26lOQ" src="https://video.udacity-data.com/topher/2020/May/5ebea0f1_intercept/intercept.png" alt="Formula for calculating the intercept." width="224px" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; display: block" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                And to get the&#160;<em style="font-style: italic; margin-bottom: 0px"><i>root mean squared error (RMSE)</i></em>, we have:
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div role="button" tabindex="0" aria-label="Show Image Fullscreen" class="image-atom--image-atom--1XDdu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: block">
+              <div class="image-atom-content--CDPca" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-align: center">
+                <div class="image-and-annotations-container--1U01s" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: inline-block">
+                  <img class="image--26lOQ" src="https://video.udacity-data.com/topher/2020/May/5ebea119_rmse/rmse.png" alt="Formula for calculating RMSE." width="202px" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: white; display: block" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                In most machine learning libraries (such as Sklearn or Pythorch) the inner workings of the linear regression algorithm are implemented for you. The error and the best coefficients will be automatically calculated when you input the data. Here, the important thing is to understand what is happening conceptually&#8212;namely, that we choose a cost function (like RMSE) to calculate the&#160;<em style="font-style: italic"><i>error</i></em>&#160;and then&#160;<em style="font-style: italic"><i>minimize</i></em>&#160;that error in order to arrive at a&#160;<em style="font-style: italic; margin-bottom: 0px"><i>line of best fit</i></em>&#160;that models the training data and can be used to make predictions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Now that we've review the concept, let's get some hands-on practice implementing the linear regression algorithm in Azure Machine Learning Studio!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1595705244979" ID="ID_1292284614" MODIFIED="1595705346451" TEXT="important!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      the train process minimizing the error
+    </p>
+    <p>
+      a cost function is used to calculated the error or the model
+    </p>
+    <p>
+      is not necesary a error is minimizated
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      m=slope=coeficient
+    </p>
+    <p>
+      b=bias = interceptor
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
