@@ -764,5 +764,129 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1595389127491" ID="ID_1830131319" MODIFIED="1595389405534" POSITION="right" TEXT="tools for machine learning">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      collect data -&gt;prepare data-&gt; train model -&gt; evaluate model -&gt;deploy model
+    </p>
+    <p>
+      
+    </p>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="index--pair--2zqTz" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: flex; background-color: rgb(250, 251, 252); color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--concept--AV9z3 index--pair-part--1zw9K" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; width: 384px; display: flex; border-right-color: rgb(219, 226, 232); border-right-style: solid; border-right-width: 1px">
+        <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+          <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            Microsoft's core development environme&#160;&#160;-&gt; visual studio
+          </p>
+          <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            open-source tool that can combine code, markdown, and visualizations together in a single document.
+          </p>
+        </div>
+      </div>
+      <div class="index--answer-selection--bwGz3 index--pair-part--1zw9K" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; width: 384px; display: flex">
+        <div aria-label="Open-source tool that can combine code, markdown, and visualizations together in a single document. - currently Jupyter Notebooks" aria-dropeffect="move" role="listbox" tabindex="0" class="drop-zone--drop-zone--38cMu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; height: 111px; width: 380px">
+          <div aria-label="Answer 1, Jupyter Notebooks." role="button" draggable="true" class="drag-item--drag-item--3sB2T" tabindex="0" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 15px; padding-left: 15px; background-color: rgb(2, 179, 228); border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; color: rgb(255, 255, 255); display: inline-block">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Jupyter Notebooks
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="index--pair--2zqTz" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: flex; background-color: rgb(250, 251, 252); color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--concept--AV9z3 index--pair-part--1zw9K" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; width: 384px; display: flex; border-right-color: rgb(219, 226, 232); border-right-style: solid; border-right-width: 1px">
+        <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+          <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            A light-weight code editor from Microsoft
+          </p>
+        </div>
+      </div>
+      <div class="index--answer-selection--bwGz3 index--pair-part--1zw9K" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; width: 384px; display: flex">
+        <div aria-label="A light-weight code editor from Microsoft - currently Visual Studio Code" aria-dropeffect="move" role="listbox" tabindex="0" class="drop-zone--drop-zone--38cMu" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; height: 85px; width: 380px">
+          <div aria-label="Answer 1, Visual Studio Code." role="button" draggable="true" class="drag-item--drag-item--3sB2T" tabindex="0" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 10px; padding-bottom: 10px; padding-right: 15px; padding-left: 15px; background-color: rgb(2, 179, 228); border-top-style: none; border-top-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: none; border-bottom-width: medium; border-left-style: none; border-left-width: medium; color: rgb(255, 255, 255); display: inline-block">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Visual Studio Code
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="index--pair--2zqTz" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; display: flex; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <div class="index--concept--AV9z3 index--pair-part--1zw9K" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 15px; padding-bottom: 15px; padding-right: 20px; padding-left: 20px; width: 384px; display: flex; border-right-color: rgb(219, 226, 232); border-right-style: solid; border-right-width: 1px">
+        <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+          <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            Data analytics platform, optimized for use with Microsoft cloud services
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>
+      
+    </p>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="the-machine-learning-ecosystem" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                The Machine Learning Ecosystem
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                A typical machine learning ecosystem is made up of three main components:
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700"><b>1. Libraries.</b></strong>&#160;When you're working on a machine learning project, you likely will not want to write all of the necessary code yourself&#8212;instead, you'll want to make use of code that has already been created and refined. That's where libraries come in. A&#160;<em style="font-style: italic"><i>library</i></em>&#160;is a collection of pre-written (and compiled) code that you can make use of in your own project.&#160;<em style="font-style: italic"><i>NumPy</i></em>&#160;is an example of a library popularly used in data science, while&#160;<em style="font-style: italic"><i>TensorFlow</i></em>&#160;is a library specifically designed for machine learning. Read this&#160;<a target="_blank" href="https://www.geeksforgeeks.org/best-python-libraries-for-machine-learning/" style="color: rgb(2, 179, 228); text-decoration: none; margin-bottom: 0px"><font color="rgb(2, 179, 228)">article</font></a>&#160;for some other useful library.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700"><b>2. Development environments.</b></strong>&#160;A&#160;<em style="font-style: italic"><i>development environment</i></em>&#160;is a software application (or sometimes a group of applications) that provide a whole suite of tools designed to help you (as the developer or machine learning engineer) build out your projects.&#160;<em style="font-style: italic"><i>Jupyter Notebooks</i></em>&#160;and&#160;<em style="font-style: italic; margin-bottom: 0px"><i>Visual Studio</i></em>&#160;are examples of development environments that are popular for coding many different types of projects, including machine learning projects.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700"><b>3. Cloud services.</b></strong>&#160;A&#160;<em style="font-style: italic"><i>cloud service</i></em>&#160;is a service that offers data storage or computing power over the Internet. In the context of machine learning, you can use a cloud service to access a server that is likely far more powerful than your own machine, or that comes equipped with machine learning models that are ready for you to use. Read more information about different cloud services from this&#160;<a target="_blank" href="https://medium.com/appanion/machine-learning-as-a-service-the-top-cloud-platform-and-ai-vendors-2df45d51374d" style="color: rgb(2, 179, 228); text-decoration: none; margin-bottom: 0px"><font color="rgb(2, 179, 228)">article</font></a>
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                For each of these components, there are multiple options you can choose from. Let's have a look at some examples.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="notebooks" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Notebooks
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Notebooks are originally created as a documenting tool that others can use to reproduce experiments. Notebooks typically contain a combination of runnable code, output, formatted text, and visualizations. One of the most popular open-source notebooks used today by data scientists and data science engineers is&#160;<a target="_blank" href="https://jupyter.org/" style="color: rgb(2, 179, 228); text-decoration: none; margin-bottom: 0px"><font color="rgb(2, 179, 228)"><strong style="font-weight: 700; margin-bottom: 0px"><b>Jupyter notebook</b></strong></font></a>, which can combine code, formatted text (markdown) and visualization.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Notebooks contains several independent&#160;<strong style="font-weight: 700; margin-bottom: 0px"><b>cells</b></strong>&#160;that allow for the execution of code snippets within those cells. The output of each cell can be saved in the notebook and viewed by others.
+              </p>
+              <h2 id="end-to-end-with-azure" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                End-to-end with Azure
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                You can analyze and train a small amount of data with your local machine using Jupyter notebook, Visual studio, or other tools. But with very large amounts of data, or you need a faster processor, it's a better idea to train and test the model&#160;<em style="font-style: italic"><i>remotely</i></em>&#160;using&#160;<em style="font-style: italic; margin-bottom: 0px"><i>cloud services</i></em>&#160;such as Microsoft Azure. You can use Azure Data Science Virtual Machine, Azure Databricks, Azure Machine Learning Compute, or SQL server ML services to train and test models and use Azure Kubernetes to deploy models.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </map>
