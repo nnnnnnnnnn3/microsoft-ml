@@ -1471,5 +1471,598 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1595719079871" ID="ID_1925186708" MODIFIED="1595719166448" POSITION="right" TEXT="learning a function">
+<richcontent TYPE="NOTE">
+  
+    
+    
+  
+  
+    
+      
+        
+          
+            
+              
+                Learning a function
+              
+              
+                As mentioned earlier, we can generally think of a machine 
+                learning&#160;algorithm&#160;as a process for 
+                learning, and&#160;models&#160;as specific 
+                representations that we train using data. In essence, machine 
+                learning algorithms aim to learn a target function (ff) 
+                that describes the mapping between data input variables (XX) 
+                and an output variable (YY).
+              
+              
+                
+                  
+                  
+                  
+                  Y = f(X)Y=f(X)
+                
+              
+              
+                The core goal is to learn a useful transformation of the input 
+                data that gets us closer to the expected output.
+              
+              
+                Since the process extrapolates from a limited set of values, 
+                there will always be an error&#160;ee&#160;which 
+                is independent of the input data (XX) 
+                such that:
+              
+              
+                
+                  
+                  
+                  
+                  Y = f(X) + eY=f(X)+e
+                
+              
+              
+                The variable&#160;ee&#160;is 
+                called irreducible error because no matter how good we get at 
+                estimating the target function (ff), 
+                we cannot reduce this error.
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          
+                          
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              
+                Note that the&#160;irreducible error&#160;we're 
+                discussing here is different from the&#160;model error&#160;we 
+                talked about earlier in the lesson. Irreducible error is 
+                caused by the data collection process&#8212;such as when we don't 
+                have enough data or don't have enough data features. In 
+                contrast, the model error measures how much the prediction 
+                made by the model is different from the true output. The model 
+                error is generated from the model and can be reduced during 
+                the model learning process.
+              
+            
+          
+        
+      
+    
+    
+
+    
+      
+    
+  
+
+</richcontent>
+</node>
+<node CREATED="1595719714136" ID="ID_151488168" MODIFIED="1595719769296" POSITION="left" TEXT="parametric vs non parametric">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="parametric-machine-learning-algorithms" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Parametric Machine Learning Algorithms
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Parametric machine learning algorithms make assumptions about the mapping function and have a&#160;<em style="font-style: italic; margin-bottom: 0px"><i>fixed</i></em>&#160;number of parameters. No matter how much data is used to learn the model, this will not change how many parameters the algorithm has. With a parametric algorithm, we are selecting the form of the function and then learning its coefficients using the training data.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                An example of this would be the approach used in linear regression algorithms, where the simplified functional form can be something like:
+              </p>
+              <blockquote style="margin-top: 20px; margin-bottom: 20px; margin-right: 0px; margin-left: 0px; font-size: 1.5rem; font-style: italic; line-height: 2.5rem; font-weight: 300; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px; border-left-color: rgb(219, 226, 232); border-left-style: solid; border-left-width: 5px">
+                <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                  <font size="1.21em" face="KaTeX_Main, Times New Roman, serif"><math style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                  <semantics style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                  <annotation encoding="application/x-tex" style="font-variant: normal; line-height: 1.2; white-space: nowrap; text-indent: 0px; margin-bottom: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; height: 1px; width: 1px">
+                  B_0 + B_1 * X_1 + B_2 * X_2 = 0</annotation></semantics></math></font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">0</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">1</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">X</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">1</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">+</font><i><font size="1.21em" face="KaTeX_Math">B</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">2</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">&#8727;</font><i><font size="1.21em" face="KaTeX_Math">X</font></i><font size="0.7em" face="KaTeX_Main, Times New Roman, serif">2</font><font size="1px" face="KaTeX_Main, Times New Roman, serif">&#8203;</font><font size="1.21em" face="KaTeX_Main, Times New Roman, serif">=0</font>
+                </p>
+              </blockquote>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                This assumption greatly simplifies the learning process; after selecting the initial function, the remaining problem is simply to estimate the coefficients B0, B1, and B2 using different samples of input variables X1 and X2.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700; margin-bottom: 0px"><b>Benefits:</b></strong>
+              </p>
+              <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc">
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Simpler</b></strong>&#160;and&#160;<strong style="font-weight: 700"><b>easier</b></strong>&#160;to understand; easier to interpret the results
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Faster</b></strong>&#160;when talking about learning from data
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Less training data</b></strong>&#160;required to learn the mapping function, working well even if the fit to data is not perfect
+                </li>
+              </ul>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700; margin-bottom: 0px"><b>Limitations:</b></strong>
+              </p>
+              <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc">
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Highly constrained</b></strong>&#160;to the specified form of the simplified function
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Limited complexity</b></strong>&#160;of the problems they are suitable for
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Poor fit</b></strong>&#160;in practice, unlikely to match the underlying mapping function.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <div class="index--container--2OwOl" style="line-height: 1.33333em; margin-top: 25px; margin-bottom: 25px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        <div class="index--atom--lmAIo layout--content--3Smmq" style="line-height: 1.33333em; margin-top: 0px; margin-bottom: 0px; margin-right: 0; margin-left: 0; padding-top: 0px; padding-bottom: 0px; padding-right: 15px; padding-left: 15px">
+          <div class="ltr" style="line-height: 1.33333em; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+            <div class="index-module--markdown--2MdcR ureact-markdown " style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-size: 1rem">
+              <h2 id="non-parametric-machine-learning-algorithms" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73)">
+                Non-parametric Machine Learning Algorithms
+              </h2>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                Non-parametric algorithms do not make assumptions regarding the form of the mapping function between input data and output. Consequently, they are free to learn any functional form from the training data.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                A simple example is the K-nearest neighbors (KNN) algorithm, which we'll discuss in more detail later in the course. KNN does not make any assumptions about the functional form, but instead uses the pattern that points have similar output when they are close.
+              </p>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700; margin-bottom: 0px"><b>Benefits:</b></strong>
+              </p>
+              <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc">
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>High flexibility</b></strong>, in the sense that they are capable of fitting a large number of functional forms
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Power</b></strong>&#160;by making weak or no assumptions on the underlying function
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>High performance</b></strong>&#160;in the prediction models that are produced
+                </li>
+              </ul>
+              <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 1rem; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+                <strong style="font-weight: 700; margin-bottom: 0px"><b>Limitations:</b></strong>
+              </p>
+              <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc">
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>More training data</b></strong>&#160;is required to estimate the mapping function
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Slower</b></strong>&#160;to train, generally having far more parameters to train
+                </li>
+                <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+                  <strong style="font-weight: 700"><b>Overfitting</b></strong>&#160;the training data is a risk; overfitting makes it harder to explain the resulting predictions
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595720071606" ID="ID_970205993" MODIFIED="1595720085519" POSITION="right" TEXT="classica ml vs deep learning">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Remember, all deep learning algorithms are machine learning algorithms but not all machine learning algorithms are deep learning algorithms.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Deep learning algorithms are based on neural networks and the classical ML algorithms are based on classical mathematical algorithms, such as linear regression, logistic regression, decision tree, SVM, and so on.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700; margin-bottom: 0px"><b>Deep learning advantages:</b></strong>
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Suitable for high complexity problems
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Better accuracy, compared to classical ML
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Better support for big data
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Complex features can be learned
+      </li>
+    </ul>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700; margin-bottom: 0px"><b>Deep learning disadvantages:</b></strong>
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Difficult to explain trained data
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Require significant computational power
+      </li>
+    </ul>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700; margin-bottom: 0px"><b>Classical ML advantages:</b></strong>
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        More suitable for small data
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Easier to interpret outcomes
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Cheaper to perform
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Can run on low-end machines
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Does not require large computational power
+      </li>
+    </ul>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <strong style="font-weight: 700; margin-bottom: 0px"><b>Classical ML disadvantages:</b></strong>
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Difficult to learn large datasets
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Require feature engineering
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        Difficult to learn complex functions
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1595720627558" ID="ID_128607339" MODIFIED="1595720640081" POSITION="left" TEXT="aproaches to machine learning">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h2 http-equiv="content-type" content="text/html; charset=utf-8" id="supervised-learning" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Supervised learning
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Learns from data that contains both the inputs and expected outputs (e.g., labeled data). Common types are:
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Classification</b></strong>: Outputs are categorical.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Regression</b></strong>: Outputs are continuous and numerical.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Similarity learning</b></strong>: Learns from examples using a similarity function that measures how similar two objects are.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Feature learning</b></strong>: Learns to automatically discover the representations or features from raw data.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Anomaly detection</b></strong>: A special form of classification, which learns from data labeled as normal/abnormal.
+      </li>
+    </ul>
+    <h2 id="unsupervised-learning" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Unsupervised learning
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Learns from input data only; finds hidden structure in input data.
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Clustering</b></strong>: Assigns entities to clusters or groups.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Feature learning</b></strong>: Features are learned from unlabeled data.
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Anomaly detection:</b></strong>&#160;Learns from unlabeled data, using the assumption that the majority of entities are normal.
+      </li>
+    </ul>
+    <h2 id="reinforcement-learning" style="margin-top: 36px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 600; font-size: 20px; color: rgb(46, 61, 73); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Reinforcement learning
+    </h2>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Learns how an agent should take action in an environment in order to maximize a reward function.
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        <strong style="font-weight: 700"><b>Markov decision process</b></strong>: A mathematical process to model decision-making in situations where outcomes are partly random and partly under the control of a decision-maker. Does not assume knowledge of an exact mathematical model.
+      </li>
+    </ul>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      The main difference between reinforcement learning and other machine learning approaches is that reinforcement learning is an&#160;<em style="font-style: italic"><i>active process</i></em>&#160;where the actions of the agent influence the data observed in the future, hence influencing its own potential future states. In contrast, supervised and unsupervised learning approaches are&#160;<em style="font-style: italic; margin-bottom: 0px"><i>passive processes</i></em>&#160;where learning is performed without any actions that could influence the data.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1595720990378" ID="ID_684856953" MODIFIED="1595721089400" TEXT="questions">
+<richcontent TYPE="NOTE">
+  
+    
+    
+  
+  
+    
+      
+        
+          
+            Yields discrete categorical outputs
+          
+        
+      
+      
+        
+          
+            
+              
+                Classification
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            Learns from data labeled as normal/abnormal
+          
+        
+      
+      
+        
+          
+            
+              
+                Anomaly detection
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            Yields continuous numerical outputs
+          
+        
+      
+      
+        
+          
+            
+              
+                Regression
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            Characteristics of the data are learned using labeled data
+          
+        
+      
+      
+        
+          
+            
+              
+                Feature learning
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            Learns from examples using a similarity function
+          
+        
+      
+    
+    
+
+    
+      
+    
+    
+      
+    
+    
+      
+        
+          
+            
+              
+                
+                  
+                
+                
+                  
+                    DESCRIPTION
+                  
+                
+                
+                  
+                
+                
+                  
+                    TYPE OF UNSUPERVISED LEARNING
+                  
+                
+              
+              
+                
+                  
+                    
+                      
+                        Assigns entities to clusters or groups
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          
+                            Clustering
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        Learns from unlabeled data assuming most entities are 
+                        normal
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          
+                            Anomaly detection
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        Features are learned from unlabeled data
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          
+                            Feature learning
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              SUBMIT
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              
+                
+                
+              
+            
+          
+        
+      
+    
+    
+      
+    
+  
+
+</richcontent>
+</node>
+</node>
 </node>
 </map>
