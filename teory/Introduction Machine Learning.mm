@@ -981,8 +981,7 @@
       </table>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1595700973508" ID="ID_1721299724" MODIFIED="1595701343835" TEXT="A Brief Intro to Azure Machine Learning">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1064,8 +1063,7 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1595701616361" ID="ID_1913572593" MODIFIED="1595702065615" POSITION="right" TEXT="Models vs. Algorithms">
@@ -1159,8 +1157,7 @@
       A machine learning model can also be written in&#160;<em style="font-style: italic"><i>a set of weights or coefficients</i></em>&#160;instead of a full equation. Looking at the previous example, since we know the algorithm, it is redundant to keep the full equation&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">y = 1*x + 0</font></code>. All we need are the weights (or coefficients)&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">W = 1</font></code>&#160;and&#160;<code style="font-family: monospace, monospace; font-size: 1em; background-color: rgb(247, 247, 248); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; border-top-color: rgb(180, 185, 189); border-top-style: solid; border-top-width: 1px; border-right-color: rgb(180, 185, 189); border-right-style: solid; border-right-width: 1px; border-bottom-color: rgb(180, 185, 189); border-bottom-style: solid; border-bottom-width: 1px; border-left-color: rgb(180, 185, 189); border-left-style: solid; border-left-width: 1px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: rgb(15, 43, 61); display: inline-block; padding-top: 0px; padding-bottom: 0px; padding-right: 0; padding-left: 0; line-height: 1.375rem"><font face="monospace, monospace" size="1em" color="rgb(15, 43, 61)">b = 0</font></code>. Thus, we can also think of a model as a set of weights (or coefficients) that have been learned.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595704437061" ID="ID_463145250" MODIFIED="1595704464649" POSITION="left" TEXT="linear regression">
 <richcontent TYPE="NOTE"><html>
@@ -1440,8 +1437,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1595705244979" ID="ID_1292284614" MODIFIED="1595705346451" TEXT="important!">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1467,24 +1463,11 @@
       b=bias = interceptor
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1595719079871" ID="ID_1925186708" MODIFIED="1595719166448" POSITION="right" TEXT="learning a function">
-<richcontent TYPE="NOTE">
-  
-    
-    
-  
-  
-    
-      
-        
-          
-            
-              
-                Learning a function
+<richcontent TYPE="NOTE">Learning a function
               
               
                 As mentioned earlier, we can generally think of a machine 
@@ -1571,21 +1554,7 @@
                 contrast, the model error measures how much the prediction 
                 made by the model is different from the true output. The model 
                 error is generated from the model and can be reduced during 
-                the model learning process.
-              
-            
-          
-        
-      
-    
-    
-
-    
-      
-    
-  
-
-</richcontent>
+                the model learning process.</richcontent>
 </node>
 <node CREATED="1595719714136" ID="ID_151488168" MODIFIED="1595719769296" POSITION="left" TEXT="parametric vs non parametric">
 <richcontent TYPE="NOTE"><html>
@@ -1699,8 +1668,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595720071606" ID="ID_970205993" MODIFIED="1595720085519" POSITION="right" TEXT="classica ml vs deep learning">
 <richcontent TYPE="NOTE"><html>
@@ -1777,8 +1745,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1595720627558" ID="ID_128607339" MODIFIED="1595720640081" POSITION="left" TEXT="aproaches to machine learning">
 <richcontent TYPE="NOTE"><html>
@@ -1841,20 +1808,9 @@
       The main difference between reinforcement learning and other machine learning approaches is that reinforcement learning is an&#160;<em style="font-style: italic"><i>active process</i></em>&#160;where the actions of the agent influence the data observed in the future, hence influencing its own potential future states. In contrast, supervised and unsupervised learning approaches are&#160;<em style="font-style: italic; margin-bottom: 0px"><i>passive processes</i></em>&#160;where learning is performed without any actions that could influence the data.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1595720990378" ID="ID_684856953" MODIFIED="1595721089400" TEXT="questions">
-<richcontent TYPE="NOTE">
-  
-    
-    
-  
-  
-    
-      
-        
-          
-            Yields discrete categorical outputs
+<richcontent TYPE="NOTE">Yields discrete categorical outputs
           
         
       
@@ -2036,12 +1992,16 @@
             
             
               
-              SUBMIT
-            
-          
-        
-      
+              SUBMIT</richcontent>
+</node>
+</node>
+<node CREATED="1595818409752" ID="ID_285954155" MODIFIED="1595818451690" POSITION="right" TEXT="the trade off">
+<richcontent TYPE="NOTE">
+  
     
+    
+  
+  
     
       
         
@@ -2049,6 +2009,726 @@
             
               
                 
+                  
+                    
+                    
+
+                    
+                      
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        The Trade-Offs
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        As all things in computer science, 
+                                        machine learning involves certain 
+                                        trade-offs. Two of the most important 
+                                        are&#160;bias vs. variance&#160;and&#160;overfitting 
+                                        vs. underfitting.
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                  
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        Bias vs. Variance
+                                      
+                                      
+                                        Bias&#160;measures how&#160;inaccurate&#160;the 
+                                        model prediction is in comparison with 
+                                        the true output. It is due to&#160;erroneous 
+                                        assumptions&#160;made in the 
+                                        machine learning process to simplify 
+                                        the model and make the target function 
+                                        easier to learn. High model complexity 
+                                        tends to have a low bias.
+                                      
+                                      
+                                        Variance&#160;measures how 
+                                        much the target function will&#160;change&#160;if 
+                                        different training data is used. 
+                                        Variance can be caused by modeling the&#160;random 
+                                        noise&#160;in the training data. 
+                                        High model complexity tends to have a 
+                                        high variance.
+                                      
+                                      
+                                        As a general trend, parametric and 
+                                        linear algorithms often have high bias 
+                                        and low variance, whereas 
+                                        non-parametric and non-linear 
+                                        algorithms often have low bias and 
+                                        high variance
+                                      
+                                      
+                                        Overfitting vs. Underfitting
+                                      
+                                      
+                                        Overfitting&#160;refers to 
+                                        the situation in which models fit the 
+                                        training data very well, but fail to 
+                                        generalize to new data.
+                                      
+                                      
+                                        Underfitting&#160;refers to 
+                                        the situation in which models neither 
+                                        fit the training data nor generalize 
+                                        to new data.
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          QUESTION 1 OF 4
+                                        
+                                        
+                                          
+                                            Here are the main terms we just 
+                                            discussed. See if you can match 
+                                            each of them with its description.
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                            Submit to check your answer 
+                                            choices!
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                        
+                                        
+                                          
+                                            DESCRIPTION
+                                          
+                                        
+                                        
+                                          
+                                        
+                                        
+                                          
+                                            TERM
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                Error that occurs when the 
+                                                model is too sensitive to the 
+                                                training data (thus giving 
+                                                different estimates when given 
+                                                new training data)
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                    Variance
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                Modeling the training data 
+                                                well, but not generalizing 
+                                                well to new data
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                    Overfitting
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                failing to model the training 
+                                                data&#160;and&#160;failing 
+                                                to generalize to new data
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                    Underfitting
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                Error that results from 
+                                                inaccurate assumptions in 
+                                                model training (that are made 
+                                                to simplify the training 
+                                                process)
+                                              
+                                            
+                                          
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                    Bias
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      
+                                      SUBMIT
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                  
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        Bias vs. Variance Trade-off
+                                      
+                                      
+                                        The&#160;prediction error&#160;can 
+                                        be viewed as the sum of&#160;model 
+                                        error&#160;(error coming from 
+                                        the model) and the&#160;irreducible 
+                                        error&#160;(coming from data 
+                                        collection).
+                                      
+                                      prediction error = Bias error + variance + error + irreducible error
+                                      
+                                        Low bias&#160;means&#160;fewer&#160;assumptions 
+                                        about the target function. Some 
+                                        examples of algorithms with low bias 
+                                        are KNN and decision trees. Having 
+                                        fewer assumptions can help generalize 
+                                        relevant relations between features 
+                                        and target outputs. In contrast,&#160;high 
+                                        bias&#160;means&#160;more&#160;assumptions 
+                                        about the target function. Linear 
+                                        regression would be a good example 
+                                        (e.g., it assumes a linear 
+                                        relationship). Having more assumptions 
+                                        can potentially miss important 
+                                        relations between features and outputs 
+                                        and cause&#160;underfitting.
+                                      
+                                      
+                                        Low variance&#160;indicates 
+                                        changes in training data would result 
+                                        in similar target functions. For 
+                                        example, linear regression usually has 
+                                        a low variance.&#160;High variance&#160;indicates 
+                                        changes in training data would result 
+                                        in very different target functions. 
+                                        For example, support vector machines 
+                                        usually have a high variance. High 
+                                        variance suggests that the algorithm 
+                                        learns the random noise instead of the 
+                                        output and causes&#160;overfitting.
+                                      
+                                      
+                                        Generally, increasing model complexity 
+                                        would decrease bias error since the 
+                                        model has more capacity to learn from 
+                                        the training data. But the variance 
+                                        error would increase if the model 
+                                        complexity increases, as the model may 
+                                        begin to learn from noise in the 
+                                        training data.
+                                      
+                                      
+                                        The goal of training machine learning 
+                                        models is to achieve&#160;low bias 
+                                        and low variance. The&#160;optimal 
+                                        model complexity&#160;is where 
+                                        bias error crosses with variance error.
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  
+                                                  
+                                                  
+                                                
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        Overfitting vs. Underfitting
+                                      
+                                      
+                                        
+                                          k-fold cross-validation: 
+                                          it split the initial training data 
+                                          into k subsets and train the model k 
+                                          times. In each training, it uses one 
+                                          subset as the testing data and the 
+                                          rest as training data.
+                                        
+                                        
+                                          hold back a&#160;validation 
+                                          dataset&#160;from the initial 
+                                          training data to estimatete how well 
+                                          the model generalizes on new data.
+                                        
+                                        
+                                          simplify&#160;the model. 
+                                          For example, using fewer layers or 
+                                          less neurons to make the neural 
+                                          network smaller.
+                                        
+                                        
+                                          use&#160;more data.
+                                        
+                                        
+                                          reduce dimensionality&#160;in 
+                                          training data such as PCA: it 
+                                          projects training data into a 
+                                          smaller dimension to decrease the 
+                                          model complexity.
+                                        
+                                        
+                                          Stop the training early&#160;when 
+                                          the performance on the testing 
+                                          dataset has not improved after a 
+                                          number of training iterations.
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          QUESTION 2 OF 4
+                                        
+                                        
+                                          
+                                            In machine learning, we often 
+                                            refer to a model as being 
+                                            overfitted when...
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  It is learning the training 
+                                                  data too well at the expense 
+                                                  of not generalizing well to 
+                                                  new data.
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  It highly simplifies 
+                                                  assumptions on the target 
+                                                  function.
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  It has a high variance.
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      
+                                      SUBMIT
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          QUESTION 3 OF 4
+                                        
+                                        
+                                          
+                                            Which one of the statements is 
+                                            true about bias and variance.
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  High bias suggests fewer 
+                                                  assumptions on the target 
+                                                  function.
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  Low variance can cause 
+                                                  overfitting.
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  Increased model complexity 
+                                                  generally increases variance.
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  Variance is due to erroneous 
+                                                  assumptions on the target 
+                                                  function.
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      
+                                      SUBMIT
+                                    
+                                  
+                                
+                              
+                            
+                            
+                              
+                                
+                                  
+                                    
+                                      
+                                        
+                                          QUESTION 4 OF 4
+                                        
+                                        
+                                          
+                                            Which technique can be used to 
+                                            reduce overfitting?
+                                          
+                                          
+                                            (Select all that apply.)
+                                          
+                                        
+                                      
+                                      
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  Have a validation dataset
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  Have less data
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  Use k-fold cross-validation
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                                
+                                                  Use PCA
+                                                
+                                              
+                                            
+                                          
+                                        
+                                        
+                                          
+                                            
+                                              
+                                              
+                                              
+
+                                              
+                                                
+                                                  Stop the training when 
+                                                  performance on training data 
+                                                  is stable
+                                                
+                                              
+                                              
+                                              
+                                            
+                                          
+                                        
+                                      
+                                    
+                                    
+                                      
+                                      SUBMIT
+                                    
+                                  
+                                
+                              
+                            
+                          
+                          
+                            
+                              
+                              NEXT
+                            
+                          
+                        
+                      
+                    
+                    
+                    
+                  
                 
               
             
@@ -2056,6 +2736,9 @@
         
       
     
+    
+    
+
     
       
     
@@ -2063,6 +2746,65 @@
 
 </richcontent>
 </node>
+<node CREATED="1595818532325" ID="ID_948240433" MODIFIED="1595818543177" POSITION="left" TEXT="lesson summary">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In this lesson, our goal was to give you a high-level introduction to the field of machine learning, including the broader context in which this branch of computer science exists.
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      Here are the main topics we covered:
+    </p>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.33333em; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 40px; list-style-type: disc; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        What machine learning is and why it's so important in today's world
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The historical context of machine learning
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The data science process
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The types of data that machine learning deals with
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The two main perspectives in ML: the&#160;<em style="font-style: italic"><i>statistical</i></em>&#160;perspective and the&#160;<em style="font-style: italic"><i>computer science</i></em>&#160;perspective
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The essential tools needed for designing and training machine learning models
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The basics of Azure ML
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The distinction between models and algorithms
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The basics of a linear regression model
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The distinction between parametric vs. non-parametric functions
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The distinction between classical machine learning vs. deep learning
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The main approaches to machine learning
+      </li>
+      <li style="line-height: 1.7; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; list-style: disc; font-size: 1rem">
+        The trade-offs that come up when making decisions about how to design and training machine learning models
+      </li>
+    </ul>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 16px; line-height: 1.7; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: rgb(79, 79, 79); font-family: Open Sans, Helvetica, sans-serif; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      In the process, you also trained your first machine learning model using Azure Machine Learning Studio.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </map>
